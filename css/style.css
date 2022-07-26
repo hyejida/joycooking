@@ -50,3 +50,13 @@ button {
     display: flex;
 }
 
+/* Recipe Tag Style */
+
+.recipe__tag__list {
+    background-color: var(--color-light-green);
+    color: var(--color-gray);
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 0 .7em 1.2em 0;
+    text-transform: capitalize;
+}

@@ -1,9 +1,11 @@
+
+
 .featured-recipes__list {
     display: grid;
     /* height: 100vh; */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(580px, auto));
     /* grid-template-rows: repeat(3, minmax(100px, auto)); */
-    grid-auto-rows: minmax(auto);
+    /* grid-auto-rows: minmax(auto); */
     gap: 80px;
     /* auto-fill / auto-fit */
 }
@@ -20,5 +22,11 @@
 
 .featured-recipes__info {
     padding: 30px;
+}
+
+.featured-recipes__info_details {
+    /* width: 100%; */
+    justify-content: space-between;
+    padding-top: 2rem;
 }
 
