@@ -2,8 +2,10 @@
 @import "reset.css";
 @import "variables.css";
 @import "text-style.css";
+
 /* Components */
 @import "components/navbar.css";
+@import "components/footer.css";
 
 /* Sections */
 @import "sections/section-settings.css";
