@@ -1,0 +1,21 @@
+#banner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+video {
+    width: 100vw;
+    z-index: -2;
+}
+.banner__title {
+    position: absolute;
+}
+
+.banner__title p {
+    font-size: var(--font-large);
+    color: var(--color-white);
+}

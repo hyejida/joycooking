@@ -5,10 +5,18 @@
 /* Components */
 @import "components/navbar.css";
 
+/* Sections */
+@import "sections/banner.css";
+
 
 * {
     box-sizing: border-box;
     cursor: default;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
 }
 
 li {
@@ -19,6 +27,13 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: var(--font-x-large);
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+
 .flex {
     display: flex;
 }
+
