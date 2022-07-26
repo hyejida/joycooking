@@ -11,5 +11,17 @@
     --color-light-gray: #E7E7E7;
     --color-black: #000;
 
-    /* Space */
+     /* Font size */
+    --font-x-large: 95px;
+    --font-large: 52px;
+    --font-section-title: 40px;
+    --font-medium: 35px;
+    --font-regular: 23px;
+    --font-small: 16px;
+    --font-micro: 13px;
+
+    /* Font weight */
+    --weight-bold: 700;
+    --weight-semi-bold: 600;
+    --weight-regular: 400;
 }
