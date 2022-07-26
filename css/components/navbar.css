@@ -1,0 +1,11 @@
+.navbar {
+    background-color: var(--color-primary);
+    padding: 18px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__list__item {
+    padding: 0 40px;
+    color: var(--color-white);
+}
