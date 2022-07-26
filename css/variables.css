@@ -22,7 +22,9 @@
     --font-micro: 13px;
 
     /* Font weight */
+    --weight-xtra-bold: 900;
     --weight-bold: 700;
     --weight-semi-bold: 600;
+    --weight-medium: 500;
     --weight-regular: 400;
 }
