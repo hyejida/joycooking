@@ -9,6 +9,7 @@
 @import "sections/section-settings.css";
 @import "sections/1_banner.css";
 @import "sections/2_mission.css";
+@import "sections/3_recipe-for-day.css";
 
 
 * {
