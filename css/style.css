@@ -6,7 +6,9 @@
 @import "components/navbar.css";
 
 /* Sections */
-@import "sections/banner.css";
+@import "sections/section-settings.css";
+@import "sections/1_banner.css";
+@import "sections/2_mission.css";
 
 
 * {
