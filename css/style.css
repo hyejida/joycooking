@@ -19,6 +19,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    background-color: var(--color-white);
 }
 
 li {
@@ -33,6 +34,11 @@ h1 {
     font-size: var(--font-x-large);
     color: var(--color-white);
     text-transform: uppercase;
+}
+
+h2 {
+    color: var(--color-black);
+    font-size: var(--font-section-title);
 }
 
 .flex {
