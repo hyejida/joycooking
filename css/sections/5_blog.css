@@ -1,0 +1,21 @@
+.blog__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, auto));
+    grid-template-rows: repeat(2, minmax(100px, auto));
+    background-color: var(--color-beige);
+    /* align-items: center; */
+
+}
+
+.blog__container img {
+    width: 100%;
+    height: 550px;
+    image-resolution: 300dpi snap;
+}
+
+.blog__item:nth-child(4),
+.blog__item:nth-child(1) {
+    text-align: left;
+    align-self: center;
+    padding: 0 10rem;
+}
