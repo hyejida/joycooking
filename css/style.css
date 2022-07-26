@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
 @import "reset.css";
 @import "variables.css";
-
+@import "text-style.css";
 /* Components */
 @import "components/navbar.css";
 
@@ -10,6 +10,7 @@
 @import "sections/1_banner.css";
 @import "sections/2_mission.css";
 @import "sections/3_recipe-for-day.css";
+@import "sections/4_featured-recipes.css";
 
 
 * {
@@ -30,25 +31,6 @@ li {
 
 a {
     text-decoration: none;
-}
-
-/* Title Style */
-
-h1 {
-    font-size: var(--font-x-large);
-    font-weight: var(--weight-xtra-bold);
-    color: var(--color-white);
-    text-transform: uppercase;
-}
-
-h2 {
-    font-size: var(--font-section-title);
-    margin-bottom: 35px;
-}
-
-h3 {
-    font-size: var(--font-medium);
-    font-weight: var(--weight-xtra-bold);
 }
 
 .flex {
