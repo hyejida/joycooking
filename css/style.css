@@ -36,6 +36,7 @@ a {
 
 h1 {
     font-size: var(--font-x-large);
+    font-weight: var(--weight-xtra-bold);
     color: var(--color-white);
     text-transform: uppercase;
 }
