@@ -1,3 +1,15 @@
+
+#blog button {
+    margin-top: 1em;
+}
+
+#blog p {
+    color: var(--color-black);
+    font-size: var(--font-small);
+    line-height: 1.5rem;
+    padding: 2em 0;
+}
+
 .blog__container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, auto));
@@ -19,3 +31,4 @@
     align-self: center;
     padding: 0 10rem;
 }
+
