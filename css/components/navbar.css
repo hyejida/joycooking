@@ -19,6 +19,7 @@
 .navbar__list__item {
     color: var(--color-white);
     width: 25%;
+    transition: 0.5s;
 }
 
 .navbar__list a {
@@ -26,4 +27,13 @@
     font-weight: var(--weight-semi-bold);
     display: block;
     padding: 0 40px;
+}
+
+.navbar__list__item:hover {
+	/* flex-grow: 1.5; */
+	width: 35%;
+}
+
+.navbar__list__item a:hover {
+    color: var(--color-dark-green);
 }

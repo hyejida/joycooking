@@ -1,5 +1,8 @@
+
 .recipe-for-today__box {
     height: 30em;
+    cursor: pointer;
+    transition: transform .5s;
 }
 
 .recipe-for-today__box .recipe-for-today__img {
@@ -54,3 +57,8 @@
     font-size: var(--font-small);
 }
 
+
+
+.recipe-for-today__box:hover {
+    transform: scale(1.05);
+}
