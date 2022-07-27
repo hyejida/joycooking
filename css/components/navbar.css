@@ -1,11 +1,29 @@
+
 .navbar {
+    display: inline-block;
     background-color: var(--color-primary);
     padding: 18px 20px;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+
+.navbar__left {
+    width: 60%;
+}
+
+.navbar__right {
+    width: 40%;
 }
 
 .navbar__list__item {
-    padding: 0 40px;
     color: var(--color-white);
+    width: 25%;
+}
+
+.navbar__list a {
+    font-size: var(--font-regular);
+    font-weight: var(--weight-semi-bold);
+    display: block;
+    padding: 0 40px;
 }

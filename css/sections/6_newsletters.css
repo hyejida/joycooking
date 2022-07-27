@@ -10,6 +10,7 @@
 
 .newsletter__signup__info {
     margin: 3.4em 0;
+    position: relative;
 }
 
 .newsletter__signup__info input {
@@ -19,18 +20,17 @@
 }
 
 .newsletter__signup__info input:first-child {
-    position: relative;
     background-color: var(--color-light-gray);
     padding-left: 2em;
 }
 
 .newsletter__signup__info input:nth-child(2) {
     position:absolute;
-    right: 62em;
+    right: 0;
+    padding: 0 2.2em;
+    cursor: pointer; 
     color: var(--color-white);
     background-color: var(--color-primary);
     font-weight: var( --weight-xtra-bold);
-    font-size: var(--font-micro);
-    padding: 0 2em;
-    cursor: pointer;
+    font-size: var(--font-micro); 
 }
