@@ -53,3 +53,8 @@
     font-weight: var(--weight-xtra-bold);
     font-size: var(--font-small);
 }
+
+.footer__social__icons i:hover,
+.footer__nav__item li:nth-child(2n+1):hover{
+    color: var(--color-dark-green);
+}
