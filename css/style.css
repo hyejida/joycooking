@@ -44,6 +44,11 @@ button {
     font-size: var(--font-small);
     padding: .5em 1.2em;
     border-radius: 2em;
+    /* transition: transform .8s; */
+}
+
+button:hover {
+    background-color: var(--color-dark-green);
 }
 
 .flex {

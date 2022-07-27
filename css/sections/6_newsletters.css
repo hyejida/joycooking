@@ -34,3 +34,7 @@
     font-weight: var( --weight-xtra-bold);
     font-size: var(--font-micro); 
 }
+
+.newsletter__signup__info input:nth-child(2):hover {
+    background-color: var(--color-dark-green);
+}
