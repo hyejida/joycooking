@@ -17,7 +17,7 @@
 }
 
 .featured-recipes__item:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
 }
@@ -38,4 +38,10 @@
     padding-top: 2rem;
 }
 
-
+#featured-recipes button {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    justify-self: center;
+    /* align-self: center; */
+    margin-top: 5em;
+}

@@ -54,7 +54,20 @@
     font-size: var(--font-small);
 }
 
-.footer__social__icons i:hover,
-.footer__nav__item li:nth-child(2n+1):hover{
+.footer__nav__item .footer__nav__list:nth-child(2n+1) {
+    width: 10%;
+    transition:.5s;
+}
+
+.footer__nav__item .footer__nav__list:nth-child(2n+1):hover {
+    width: 12%;
+}
+
+.footer__nav__item a:hover{
+    color: var(--color-dark-green);
+    font-weight: var(--weight-xtra-bold);
+}
+
+.footer__social__icons i:hover {
     color: var(--color-dark-green);
 }
