@@ -9,12 +9,11 @@
     line-height: 1.5rem;
     padding: 2em 0;
 }
-
+/* 
 .blog__container {
     display: grid; 
     grid-template-columns: repeat(auto-fill, minmax(700px, auto));
     grid-template-rows: repeat(2, 500px);
-    /* grid-template-rows: repeat(2, minmax(100px, auto)); */
 }
 
 .blog__container img {
@@ -33,7 +32,11 @@
     align-items: left;
     justify-content: center;
     padding: 10rem;
-}
+} */
+
+.blog__item:not(:first-child) {
+    display: none;
+} 
 
 
 
