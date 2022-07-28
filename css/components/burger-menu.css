@@ -1,0 +1,67 @@
+/*====================================
+BURGER
+====================================*/
+.navbar-trigger {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: 0;
+    background: transparent;
+    z-index: 999;
+}
+
+.burger {
+    position: absolute;
+    background: var(--color-primary);
+    width: 40px;
+    height: 3.5px;
+    left: 0;
+    top: 50%; 
+}
+
+.burger:before,
+.burger:after {
+    content: '';
+    background: var(--color-primary);
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 3.5px;
+    right: 0;
+}
+
+.burger:before {
+    top: 9px;
+}
+
+.burger:after {
+    bottom: 9px;
+}
+
+.burger,
+.burger:before,
+.burger:after {
+    transition-property: transform, top, background;
+    transition-duration: .40s;
+}
+
+.navbar-trigger.is-active .burger:before { 
+    background-color: var(--color-white);
+    transform: rotate(45deg);
+    top: -2px;
+    width: 30px;
+}
+
+.navbar-trigger.is-active .burger:after { 
+    background-color: var(--color-white);
+    transform: rotate(-45deg);
+    top: -2px;
+    width: 30px;
+}
+
+.navbar-trigger.is-active .burger { 
+    background-color: transparent;
+    /* width: 30px; */
+}
+

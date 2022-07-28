@@ -6,6 +6,7 @@
 /* Components */
 @import "components/navbar.css";
 @import "components/footer.css";
+@import "components/burger-menu.css";
 
 /* Sections */
 @import "sections/section-settings.css";
@@ -47,7 +48,7 @@ button {
     /* transition: transform .8s; */
 }
 
-button:hover {
+.button:hover {
     background-color: var(--color-dark-green);
 }
 
