@@ -20,7 +20,8 @@
     --weight-regular: 400;
 
      /* Font size */
-    --font-x-large: 95px;
+    --font-xx-large: 95px;
+    --font-x-large: 62px;
     --font-large: 52px;
     --font-medium: 35px;
     --font-regular: 23px;
@@ -47,3 +48,4 @@
 } */
 
 }
+

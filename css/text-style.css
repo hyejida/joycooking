@@ -25,9 +25,21 @@ h3 {
     }
 
 /* Title Style */
-@media (min-width: 1440px) {
+
+
+@media (min-width: 768px) {
     h1 {
         font-size: var(--font-x-large);
+        font-weight: var(--weight-xtra-bold);
+        color: var(--color-white);
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    h1 {
+        font-size: var(--font-xx-large);
         font-weight: var(--weight-xtra-bold);
         color: var(--color-white);
         text-transform: uppercase;

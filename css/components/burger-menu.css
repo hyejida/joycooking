@@ -65,3 +65,11 @@ BURGER
     /* width: 30px; */
 }
 
+
+
+@media (min-width:768px) {
+    .navbar-trigger {
+		display: none;
+	}
+
+}

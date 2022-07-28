@@ -11,6 +11,7 @@
     z-index: -999;
 }
 
+
 .banner__bg video {
     width: 100vw;
     z-index: -2;
@@ -26,27 +27,51 @@
 }
 
 .banner__bg .banner__bg__img {
-     height: 40vh;
-     position: relative;
-  
+    height: 40vh;
+    position: relative;
+     width: 100vw;
 }
 
 .banner__title {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 41%;
     left: auto;
-
 }
 
 .banner__bg__img img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /*====================================
 Media Queries
 ====================================*/
+@media (min-width: 768px) {
 
+    #banner {
+        position: absolute;
+        top: 10.3rem;
+        left: 0;
+    }
+
+    .banner__bg .banner__bg__img {
+        height: 56vh;
+        position: relative;
+         width: 100vw;
+    }
+
+    .banner__title p {
+        padding-top: .3rem;
+        font-size: var(--font-medium);
+        font-weight: var(--weight-semi-bold);
+        color: var(--color-white);
+        letter-spacing: 2px;
+    }
+    
+
+}
 @media (min-width: 1440px) {
 	.banner__bg video {
         display: unset;

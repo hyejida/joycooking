@@ -22,8 +22,9 @@
 }
 .featured-recipes__list img {
     width: 100%;
-    height: 15rem;
+    height: 12rem;
     image-resolution: 300dpi snap;
+    object-fit: cover;
 }
 
 .featured-recipes__info {
