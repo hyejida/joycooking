@@ -7,10 +7,21 @@ h1 {
 
 h2 {
     font-size: var(--font-section-title);
+    font-weight: var(--weight-xtra-bold);
     margin-bottom: 35px;
+}
+
+h3 {
+    font-size: var(--font-x-small);
     font-weight: var(--weight-xtra-bold);
 }
 
+.author {
+        color: var(--color-gray);
+        text-transform: uppercase;
+        font-size: var(--font-nano);
+        font-weight: var(--weight-bold);
+    }
 
 /* Title Style */
 @media (min-width: 1440px) {

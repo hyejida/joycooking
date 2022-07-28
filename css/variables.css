@@ -28,10 +28,12 @@
     --font-small: 18px;
     --font-x-small: 16px;
     --font-micro: 13px;
+    --font-nano: 11px;
+    --font-x-nano: 9px;
 
 
    /* Font Size Media Queris */
-
+/* 
 @media (min-width:1440px) {
     --font-x-large: 95px;
     --font-large: 52px;
@@ -42,5 +44,6 @@
     --font-x-small: 16px;
     --font-micro: 13px;
 
-}
+} */
+
 }
