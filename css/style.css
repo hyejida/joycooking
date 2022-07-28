@@ -38,16 +38,6 @@ a {
     text-decoration: none;
 }
 
-button {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-    font-weight: var(--weight-bold);
-    font-size: var(--font-small);
-    padding: .5em 1.2em;
-    border-radius: 2em;
-    /* transition: transform .8s; */
-}
-
 .button:hover {
     background-color: var(--color-dark-green);
 }
@@ -65,4 +55,29 @@ button {
     padding: 5px 20px;
     margin: 0 .7em 1.2em 0;
     text-transform: capitalize;
+}
+
+
+/* Button Style */
+
+button {
+    font-size: var(--font-micro);
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    font-weight: var(--weight-bold);
+    border-radius: 2em;
+    padding: .5em 1.2em;
+    width: 10rem;
+}
+
+@media (min-width:1048){
+    button {
+        color: var(--color-white);
+        background-color: var(--color-primary);
+        font-weight: var(--weight-bold);
+        font-size: var(--font-small);
+        padding: .5em 1.2em;
+        border-radius: 2em;
+        /* transition: transform .8s; */
+    }
 }
