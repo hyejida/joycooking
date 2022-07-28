@@ -22,16 +22,16 @@
      /* Font size */
     --font-x-large: 95px;
     --font-large: 52px;
-    --font-section-title: 40px;
     --font-medium: 35px;
     --font-regular: 23px;
+    --font-section-title: 21px;
     --font-small: 18px;
     --font-x-small: 16px;
     --font-micro: 13px;
 
 
    /* Font Size Media Queris */
-   
+
 @media (min-width:1440px) {
     --font-x-large: 95px;
     --font-large: 52px;

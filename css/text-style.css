@@ -5,6 +5,12 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-size: var(--font-section-title);
+    margin-bottom: 35px;
+    font-weight: var(--weight-xtra-bold);
+}
+
 
 /* Title Style */
 @media (min-width: 1440px) {

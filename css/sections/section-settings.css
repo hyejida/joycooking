@@ -1,6 +1,6 @@
 /* Section Common */
 .section {
-  padding: 200px 100px 50px 100px;
+  padding: 0 1.5rem;
   /* text-align: center; */
   margin: auto;
 }
@@ -8,4 +8,12 @@
 .section__container {
   max-width: 1200px;
   margin: auto;
+}
+
+
+@media (min-width: 1440px) {
+
+  .section {
+    padding: 200px 100px 50px 100px;
+  }
 }

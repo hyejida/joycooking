@@ -3,19 +3,25 @@
 }
 
 .mission__box{
-    /* width: 60em; */
     background-color: var(--color-beige);
-    padding: 90px 70px;
-    display: flex;
+    margin-top: 7.8rem;
+    padding: 65px 10px;
     flex-direction: column;
     align-items: center;
 }
 
 .mission__box .mission__intro {
-    width: 70%;
     color: var(--color-black);
     font-size: var(--font-small);
-    line-height: 1.7rem;
+    line-height: 1.3rem;
+    font-weight: var(--weight-medium);
     /* font-weight: var(--weight-bold); */
 }
 
+
+@media (min-width: 1440px) {
+    .mission__box .mission__intro {
+    line-height: 1.7rem;
+    font-weight: var(--weight-regular);
+}
+}

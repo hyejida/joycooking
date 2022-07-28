@@ -28,7 +28,8 @@
 }
 
 .navbar__list a {
-    font-size: var(--font-regular);
+    /* font-size: var(--font-regular); */
+	font-size: var(--font-micro);
     font-weight: var(--weight-semi-bold);
     display: block;
     padding: 0 40px;
