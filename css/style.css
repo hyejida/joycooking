@@ -67,7 +67,6 @@ button {
     font-weight: var(--weight-bold);
     border-radius: 2em;
     padding: .5em 1.2em;
-    width: 10rem;
 }
 
 @media (min-width:1048){

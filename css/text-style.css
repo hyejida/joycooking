@@ -8,7 +8,7 @@ h1 {
 h2 {
     font-size: var(--font-section-title);
     font-weight: var(--weight-xtra-bold);
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 h3 {
