@@ -1,15 +1,23 @@
+
 :root {
-    /* Colour */
-    --color-primary: #A7D10D;
-    --color-dark-green: #8AAD0A;
-    --color-light-green: #E0F29B;
-    --color-light-orange: #F9D49D;
-    --color-light-yellow: #FCF9BF;
-    --color-beige: #FBFEF2;
-    --color-white: #fff;
-    --color-gray: #808080;
-    --color-light-gray: #E7E7E7;
-    --color-black: #000;
+     /* Colour */
+     --color-primary: #A7D10D;
+     --color-dark-green: #8AAD0A;
+     --color-light-green: #E0F29B;
+     --color-light-orange: #F9D49D;
+     --color-light-yellow: #FCF9BF;
+     --color-beige: #FBFEF2;
+     --color-white: #fff;
+     --color-gray: #808080;
+     --color-light-gray: #E7E7E7;
+     --color-black: #000;
+
+      /* Font weight */
+    --weight-xtra-bold: 900;
+    --weight-bold: 700;
+    --weight-semi-bold: 600;
+    --weight-medium: 500;
+    --weight-regular: 400;
 
      /* Font size */
     --font-x-large: 95px;
@@ -21,10 +29,18 @@
     --font-x-small: 16px;
     --font-micro: 13px;
 
-    /* Font weight */
-    --weight-xtra-bold: 900;
-    --weight-bold: 700;
-    --weight-semi-bold: 600;
-    --weight-medium: 500;
-    --weight-regular: 400;
+
+   /* Font Size Media Queris */
+   
+@media (min-width:1440px) {
+    --font-x-large: 95px;
+    --font-large: 52px;
+    --font-section-title: 40px;
+    --font-medium: 35px;
+    --font-regular: 23px;
+    --font-small: 18px;
+    --font-x-small: 16px;
+    --font-micro: 13px;
+
+}
 }

@@ -9,31 +9,34 @@
   </head>
   <body>
     <!-- Nav bar -->
-    <header>
-      <nav class="navbar flex">
-        <div class="navbar__left">
-          <a href="index.html">
-            <img
-              src="img/logo.png"
-              alt="Brand_logo_in_the_top_left_corner"
-              class="navbar__logo"
-            />
-          </a>
-        </div>
-        <div class="navbar__right">
-          <ul class="navbar__list flex">
-            <li class="navbar__list__item"><a href="#">recipes</a></li>
-            <li class="navbar__list__item"><a href="#">about</a></li>
-            <li class="navbar__list__item"><a href="#">blog</a></li>
-            <li class="navbar__list__item"><a href="#">contact</a></li>
-          </ul>
-        </div>
+    <header class="navbar flex">
+      <div class="navbar__left">
+        <a href="index.html">
+          <img
+            src="img/logo.png"
+            alt="Brand_logo_in_the_top_left_corner"
+            class="navbar__logo"
+          />
+        </a>
+      </div>
+      <button class="navbar-trigger">
+        <div class="burger"></div>
+      </button>
+      <nav class="navbar__right">
+        <ul class="navbar__list flex">
+          <li class="navbar__list__item"><a href="#">recipes</a></li>
+          <li class="navbar__list__item"><a href="#">about</a></li>
+          <li class="navbar__list__item"><a href="#">blog</a></li>
+          <li class="navbar__list__item"><a href="#">contact</a></li>
+        </ul>
       </nav>
     </header>
 
     <!-- Section 01 -->
     <section id="banner">
       <div class="banner__bg">
+        <div class="banner__bg__img">
+          <img src="img/banner-img.png" alt="Alternative-Banner-img">
         <video autoplay muted>
           <source src="img/banner-video.mp4" type="video/mp4" />
         </video>
@@ -45,7 +48,7 @@
     </section>
 
     <!-- Section 02 -->
-    <section id="mission" class="section">
+    <!-- <section id="mission" class="section">
       <div class="mission__box">
         <h2>Feeling hungry? We put the joy in cooking.</h2>
         <p class="mission__intro">
@@ -57,10 +60,10 @@
           wide range of dietary needs.
         </p>
       </div>
-    </section>
+    </section> -->
 
     <!-- Section 03 -->
-    <section id="recipe-for-today" class="section">
+    <!-- <section id="recipe-for-today" class="section">
       <h2>Recipe of the Day</h2>
       <div class="recipe-for-today__box flex">
         <img
@@ -91,10 +94,10 @@
           <span>30 mins</span>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Section 04 -->
-    <section id="featured-recipes" class="section">
+    <!-- <section id="featured-recipes" class="section">
       <h2>Featured Recipes</h2>
       <div class="featured-recipes__list">
         <div class="featured-recipes__item">
@@ -341,10 +344,10 @@
           See more recipes
         </button>
       </div>
-    </section>
+    </section> -->
 
     <!-- Section 05 -->
-    <section id="blog" class="section">
+    <!-- <section id="blog" class="section">
       <div class="blog__container">
         <div class="blog__item">
           <h3>Eat good, feel good</h3>
@@ -380,10 +383,10 @@
           <span><button>Read More</button></span>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Section 06 -->
-    <section id="newsletters" class="section flex">
+    <!-- <section id="newsletters" class="section flex">
       <h2>Join our eat well, be well culture</h2>
       <p>
         Sign up for our weekly newsletters! Get the newest recipes sent straight
@@ -402,10 +405,10 @@
           <input class="button" type="submit" value="Sign Up" />
         </div>
       </form>
-    </section>
+    </section> -->
 
     <!-- Footer -->
-    <footer id="footer" class="flex">
+    <!-- <footer id="footer" class="flex">
       <div class="footer__top__container flex">
         <a href="index.html">
           <img
@@ -435,10 +438,13 @@
       <div class="footer__btm__container">
         <p>&copy; Copyright 2022</p>
       </div>
-    </footer>
+    </footer> -->
+    <script
+      src="https://kit.fontawesome.com/8adf1c13b4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/scroll-lock.js"></script>
   </body>
-  <script
-    src="https://kit.fontawesome.com/8adf1c13b4.js"
-    crossorigin="anonymous"
-  ></script>
 </html>
