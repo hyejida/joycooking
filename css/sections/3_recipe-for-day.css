@@ -33,17 +33,20 @@
 .recipe-for-today__info p {
     line-height: 1.5rem;
     font-size: var(--font-x-small);
-    padding: .8rem 0;
+    padding-top: .8rem;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
-.recipe-for-today__info .fa-clock {
-    padding-right: .4rem;
-    font-size: var(--font-small);
+.recipe-for-today__info p:hover {
+    color: var(--color-gray);
 }
 
 .recipe__tag {
     align-items: center;
     justify-content: flex-start;
+    padding: .8rem 0;
     /* text-align: center; */
 }
 
@@ -58,10 +61,16 @@
 
 .recipe-for-today__info span {
     color: var(--color-gray);
+    font-size: var(--font-micro);
 }
 
 .recipe-for-today__box:hover {
     transform: scale(1.05);
+}
+
+.recipe-for-today__info .fa-clock {
+    padding-right: .4rem;
+    font-size: var(--font-small);
 }
 
 @media (min-width:1440px) {
