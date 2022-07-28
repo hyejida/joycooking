@@ -55,7 +55,7 @@
 }
 
 #featured-recipes button {
-    margin: 2rem auto;
+    margin: 2rem auto 0 auto;
 }
 
 @media (min-width: 1024px) {

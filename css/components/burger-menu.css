@@ -14,7 +14,7 @@ BURGER
 .burger {
     position: absolute;
     background: var(--color-primary);
-    width: 40px;
+    width: 100%;
     height: 3.5px;
     left: 0;
     top: 50%; 
@@ -26,7 +26,7 @@ BURGER
     background: var(--color-primary);
     display: block;
     position: absolute;
-    width: 40px;
+    width: 100%;
     height: 3.5px;
     right: 0;
 }
