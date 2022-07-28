@@ -42,6 +42,7 @@
     font-weight: var(--weight-xtra-bold);
 	text-transform: capitalize;
 	padding: .4rem 0;
+	
 }
 
 .navbar__list a {
