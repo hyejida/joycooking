@@ -1,4 +1,7 @@
-
+.blog__container {
+    background-color: var(--color-beige);
+    padding: 2rem .8rem;;
+}
 
 #blog p {
     font-size: var(--font-x-small);
