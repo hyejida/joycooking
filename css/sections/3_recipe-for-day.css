@@ -73,6 +73,10 @@
     font-size: var(--font-small);
 }
 
+@media (min-width:768px) {
+    
+}
+
 @media (min-width:1440px) {
     .recipe-for-today__box {
         display: grid;

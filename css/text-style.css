@@ -35,6 +35,12 @@ h3 {
         text-transform: uppercase;
         letter-spacing: .1rem;
     }
+
+    h2 {
+        font-size: var(--font-large-regular);
+        font-weight: var(--weight-xtra-bold);
+        margin-bottom: 15px;
+    }
 }
 
 @media (min-width: 1440px) {
