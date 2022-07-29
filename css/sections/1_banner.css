@@ -63,15 +63,31 @@ Media Queries
     }
 
     .banner__title p {
-        padding-top: .3rem;
         font-size: var(--font-medium);
         font-weight: var(--weight-semi-bold);
-        color: var(--color-white);
         letter-spacing: 2px;
     }
-    
-
 }
+
+@media (min-width:1024px) {
+    .banner__bg .banner__bg__img {
+        /* height: 43vh;  */
+    }
+    .banner__title p {
+        font-size: var(--font-large);
+        font-weight: var(--weight-semi-bold);
+        letter-spacing: 1.5px;
+        padding-top: 0;
+    }
+
+    .banner__title {
+        width: 100%;
+        position: absolute;
+        top: 38%;
+        left: auto;
+    }
+}
+
 @media (min-width: 1440px) {
 	.banner__bg video {
         display: unset;

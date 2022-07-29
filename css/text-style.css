@@ -24,15 +24,13 @@ h3 {
         font-weight: var(--weight-bold);
     }
 
-/* Title Style */
-
+/*====================================
+Media Queries
+====================================*/
 
 @media (min-width: 768px) {
     h1 {
         font-size: var(--font-x-large);
-        font-weight: var(--weight-xtra-bold);
-        color: var(--color-white);
-        text-transform: uppercase;
         letter-spacing: .1rem;
     }
 
@@ -61,6 +59,13 @@ h3 {
 
     #newsletters h3 {
         font-size: var(--font-medium);
+    }
+}
+
+
+@media (min-width:1024px) {
+    h1 {
+        font-size: var(--font-xx-large);
     }
 }
 

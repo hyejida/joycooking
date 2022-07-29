@@ -28,6 +28,7 @@
 	height: 100vh;
 	background: var(--color-primary);
 	flex-basis: 10%;
+	z-index: 100;
 }
 
 .navbar__right .navbar__list {

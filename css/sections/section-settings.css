@@ -9,8 +9,9 @@
 
 .content-wrap {
   width: 100vw;
+  position: absolute;
+  top: 15%;
 }
-
 
 @media (min-width: 768px) {
   .section {
@@ -18,10 +19,10 @@
   }
 
   .content-wrap {
-    position: absolute;
-    top: 70%;
+    top: 74%;
   }
 }
+
 
 
 @media (min-width: 1440px) {
