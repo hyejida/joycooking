@@ -1,5 +1,5 @@
 h1 {
-    font-size: var(--font-medium);
+    font-size: var(--font-regular);
     font-weight: var(--weight-xtra-bold);
     color: var(--color-white);
     text-transform: uppercase;
@@ -41,21 +41,18 @@ Media Queries
     }
 
     h2 {
-        font-size: var(--font-large-regular);
+        font-size: var(--font-medium);
         font-weight: var(--weight-xtra-bold);
         margin-bottom: 15px;
     }
 
     h3 {
-        font-size: var(--font-regular);
-        font-weight: var(--weight-xtra-bold);
-        text-transform: capitalize;
+        font-size: var(--font-section-title);
     }
+
 
     #featured-recipes h3 {
         font-size: var(--font-x-small);
-        font-weight: var(--weight-xtra-bold);
-        text-transform: capitalize;
     }
 
     #blog h3 {
@@ -63,8 +60,16 @@ Media Queries
         font-weight: var(--weight-xtra-bold);
     }
 
-    #newsletters h3 {
-        font-size: var(--font-medium);
+    #blog h2 {
+        font-size: var(--font-section-title);
+    }
+
+    #newsletters h4 {
+        font-size: var(--font-large);
+    }
+
+    .author {
+        font-size: var(--font-x-small);
     }
 }
 
@@ -73,7 +78,22 @@ Media Queries
     h1 {
         font-size: var(--font-xx-large);
     }
-} */
+
+    h2 {
+        font-size: var(--font-medium);
+        font-weight: var(--weight-xtra-bold);
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: var(--font-regular);
+    }
+
+    h4 {
+        font-size: var(--font-section-title);
+    }
+} 
+
 
 @media (min-width: 1440px) {
     h1 {

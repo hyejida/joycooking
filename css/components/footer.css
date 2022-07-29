@@ -128,3 +128,32 @@ Media Queries
         font-size: var(--font-small);
     }
 }
+
+@media (min-width:1024px) {
+
+    .footer__top__container {
+        padding: 4rem 0 2rem 0;
+    }   
+
+    .footer__copyright {
+        padding: 1.4rem 0; 
+    }
+
+    .footer__logo {
+        width: 13rem;
+    }
+
+    .footer__social__icons {
+        font-size: var(--font-large);
+        margin: 3rem 0 1rem 0;
+    }
+
+    .footer__social__icons i {
+        padding: 0 1.5rem;
+    }
+
+    .footer__nav .footer__nav__list {
+        font-size: var(--font-section-title);
+    }
+
+}

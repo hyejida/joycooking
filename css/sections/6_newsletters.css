@@ -42,12 +42,16 @@
 }
 
 
+/*====================================
+Media Queries
+====================================*/
+
 @media (min-width:768px) {
     #newsletters {
         margin-top: 2.2rem;
     }
     #newsletters p {
-        font-size: var(--font-x-small);
+        font-size: var(--font-small);
         padding: 2.5rem 0;
     }
     
@@ -62,6 +66,22 @@
     .newsletter__signup__info input {
         height: 2.5rem;
     }
-   
 
+    .newsletter__signup {
+        margin-bottom: 5rem;
+    }
 } 
+
+@media (min-width:1024px) {
+    .newsletter__signup__info input:first-child {
+        width: 35rem;
+    }
+
+    .newsletter__signup__info input {
+        height: 3rem;
+    }
+
+    .newsletter__signup__info input:nth-child(2) {
+        font-size: var(--font-x-small);
+    }
+}

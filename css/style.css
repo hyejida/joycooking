@@ -71,14 +71,16 @@ button {
     
 }
 
-@media (min-width:1048){
+@media (min-width:1024px){
     button {
-        color: var(--color-white);
-        background-color: var(--color-primary);
-        font-weight: var(--weight-bold);
+        /* display: block; */
+        padding: .5rem 2rem;
+}
+}
+
+@media (min-width:1048px){
+    button {
         font-size: var(--font-small);
-        padding: .5em 1.2em;
-        border-radius: 2em;
         /* transition: transform .8s; */
     }
 }

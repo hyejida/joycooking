@@ -26,7 +26,6 @@
 }
 
 .recipe-for-today__info h3 {
-    text-transform: capitalize;
     padding: .5rem 0;
 }
 
@@ -74,42 +73,112 @@
     font-size: var(--font-small);
 }
 
+/*====================================
+Media Queries
+====================================*/
+
+
 @media (min-width:768px) {
+    #recipe-for-today {
+        width: 100%;
+    }
 
     .recipe-for-today__box {
         width: 100%;
         display: grid;
-        grid-template-columns: 243px 1fr;
+        grid-template-columns: 20rem 1fr;
         margin-top: 2.5rem;
         height: 20rem;
     }
 
+    .recipe-for-today__info .author {
+        font-size: var(--font-x-small);
+    }
+
+    .recipe-for-today__info h3 {
+        padding: 0;
+    }
+    
+
+    .recipe-for-today__info .fa-star {
+        font-size: var(--font-x-small);
+    }
+
     .recipe-for-today__info p {
         line-height: 1.1rem;
-        font-size: var(--font-micro);
-        font-weight: var(--weight-semi-bold);
-        padding: .8rem 1.2rem 0 0;
+        font-size: var(--font-x-small);
+        font-weight: var(--weight-bold);
+        padding: .9rem 1.2rem .8rem 0;
         overflow: visible;
         text-overflow: unset;
         white-space: unset;
     }
 
     .recipe__tag__list {
-        font-size: var(--font-x-nano);
+        font-size: var(--font-micro);
         font-weight: var(--weight-xtra-bold);
-        display: inline-block;
     }
 
     .recipe-for-today__info {
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-        padding: 1.5rem;
+        box-shadow: rgba(0, 0, 0, 0.097) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        padding: 2rem;
     }
 
-   
-    /* .recipe-for-today__box img {
-        width: 40%;
+    .recipe-for-today__info span:last-child {
+        font-weight: var(--weight-xtra-bold);
+        font-size: var(--font-micro);
     }
-     */
+}
+
+@media (min-width:1024px) {
+
+    #recipe-for-today h2 {
+        font-size: var(--font-large);
+    }
+
+    .recipe-for-today__box {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20rem 1fr;
+        margin-top: 2.5rem;
+        height: 22rem;
+    }
+
+    .recipe-for-today__info {
+        padding: 4rem;
+    }
+
+    .recipe-for-today__info h3 {
+        padding: .8rem 0 .5rem 0;
+    }
+
+    .recipe-for-today__info .author {
+        font-size: var(--font-small);
+        font-weight: var(--weight-xtra-bold);
+    }
+
+    .recipe-for-today__info .fa-star {
+        font-size: var(--font-small);
+    }
+    .recipe-for-today__info p {
+        line-height: 1.5rem;
+        font-size: var(--font-small);
+        font-weight: var(--weight-regular);
+        overflow: visible;
+        text-overflow: unset;
+        white-space: unset;
+    }
+
+    .recipe__tag__list {
+        font-size: var(--font-x-small);
+        font-weight: var(--weight-regular);
+    }
+
+    .recipe-for-today__info span:last-child {
+        font-weight: var(--weight-bold);
+        font-size: var(--font-x-small);
+    }
+
 }
 
 @media (min-width:1440px) {
