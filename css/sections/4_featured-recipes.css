@@ -1,5 +1,4 @@
 
-
 .featured-recipes__list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, auto));
@@ -52,11 +51,33 @@
 }
 
 .featured-recipes__item:nth-child(3n) {
-    display: unset
+    display: unset;
 }
 
 #featured-recipes button {
     margin: 2rem auto 0 auto;
+    display: block;
+}
+
+
+@media (min-width: 768px) {
+    .featured-recipes__item{
+        display: unset;
+    }
+
+    .featured-recipes__item:nth-child(9){
+        display: none;
+    }
+
+    .featured-recipes__list {
+        gap: 3.5rem;
+        margin-top: 3.5rem;
+    }
+
+    .featured-recipes__info {
+        padding: .6rem 1rem;
+        transition: transform .5s;
+    }
 }
 
 @media (min-width: 1024px) {
