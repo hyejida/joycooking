@@ -58,6 +58,10 @@ h3 {
         font-size: var(--font-x-small);
         font-weight: var(--weight-xtra-bold);
     }
+
+    #newsletters h3 {
+        font-size: var(--font-medium);
+    }
 }
 
 @media (min-width: 1440px) {
