@@ -34,20 +34,22 @@
 .featured-recipes__info_details {
     /* width: 100%; */
     justify-content: space-between;
+    align-items: center;
+    margin-top: -.8rem;
     /* padding-top: 1rem; */
 }
 
 .featured-recipes__info_details span {
     color: var(--color-gray);
-    font-size: var(--font-micro);
+    font-size: var(--font-x-small);
 }
 
 .fa-clock {
-    padding-right: .4rem;
+    padding-right: .2rem;
 }
 
 .featured-recipes__info_details .fa-star {
-    font-size: var(--font-micro);
+    font-size: var(--font-x-small);
 }
 
 .featured-recipes__item:nth-child(3n) {
@@ -56,7 +58,7 @@
 
 #featured-recipes button {
     margin: 6rem auto 0 auto;
-    padding: .8em 2em;
+    padding: .8em 1.6em;
     display: block;
 }
 

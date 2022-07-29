@@ -52,7 +52,8 @@
 
 .recipe__tag__list {
     font-size: var(--font-x-nano);
-    font-weight: var(--weight-xtra-bold);
+    font-weight: var(--weight-bold);
+    display: block;
 }
 
 .recipe__tag li:nth-child(2) {

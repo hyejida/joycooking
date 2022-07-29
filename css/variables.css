@@ -21,32 +21,17 @@
 
      /* Font size */
     --font-xx-large: 95px;
-    --font-x-large: 62px;
-    --font-large: 52px;
-    --font-medium: 35px;
+    --font-x-large: 4rem;
+    --font-large: 2.5rem;
+    --font-medium: 1.6rem;
     --font-large-regular: 28px;
     --font-regular: 23px;
-    --font-section-title: 21px;
-    --font-small: 18px;
-    --font-x-small: 16px;
-    --font-micro: 13px;
-    --font-nano: 11px;
-    --font-x-nano: 9px;
-
-
-   /* Font Size Media Queris */
-/* 
-@media (min-width:1440px) {
-    --font-x-large: 95px;
-    --font-large: 52px;
-    --font-section-title: 40px;
-    --font-medium: 35px;
-    --font-regular: 23px;
-    --font-small: 18px;
-    --font-x-small: 16px;
-    --font-micro: 13px;
-
-} */
-
+    --font-section-title: 1.2rem;
+    --font-small: 1rem;
+    --font-x-small: .8rem;
+    --font-micro: .6rem;
+    --font-x-nano: .5rem;
+    --font-nano: .4rem;
+    
 }
 

@@ -61,7 +61,7 @@ a {
 /* Button Style */
 
 button {
-    font-size: var(--font-micro);
+    font-size: var(--font-x-small);
     color: var(--color-white);
     background-color: var(--color-primary);
     font-weight: var(--weight-bold);

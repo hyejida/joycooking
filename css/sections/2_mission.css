@@ -13,7 +13,7 @@
 .mission__box .mission__intro {
     color: var(--color-black);
     font-size: var(--font-x-small);
-    line-height: 1.3rem;
+    line-height: .9rem;
     font-weight: var(--weight-medium);
     /* font-weight: var(--weight-bold); */
 }

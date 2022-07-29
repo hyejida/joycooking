@@ -5,8 +5,8 @@
 }
 
 #newsletters p {
-    font-size: var(--font-nano);
-    padding-top: .4rem;
+    font-size: var(--font-x-small);
+    padding: 1rem 0;
 }
 
 .newsletter__signup__info {
@@ -19,17 +19,6 @@
     border-radius: 8em;
     border: none;
 }
-
-/* .newsletter__signup__info {
-    margin: 3.4em 0;
-    position: relative;
-}
-
-.newsletter__signup__info input {
-    height: 3.6em;
-    border-radius: 8em;
-    border: none;
-} */
 
 .newsletter__signup__info input:first-child {
     background-color: var(--color-light-gray);

@@ -39,6 +39,7 @@ Footer Navigation
 
 .footer__nav {
     width: 100%;
+    padding: 0 2rem;
 }
 
 .footer__nav__item {
@@ -51,7 +52,7 @@ Footer Navigation
     color: var(--color-white);
     text-transform: uppercase;
     font-weight: var(--weight-bold);
-    font-size: var(--font-x-nano);
+    font-size: var(--font-micro);
     display: block;
 }
 
@@ -88,7 +89,7 @@ Copyright
     background-color: var(--color-dark-green);
     color: var(--color-white);
     font-weight: var(--weight-xtra-bold);
-    font-size: var(--font-nano);
+    font-size: var(--font-micro);
 }
 
 

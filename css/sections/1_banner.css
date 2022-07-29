@@ -57,22 +57,19 @@ Media Queries
     }
 
     .banner__bg .banner__bg__img {
-        height: 56vh;
+        height: 85vh;
         position: relative;
          width: 100vw;
     }
 
     .banner__title p {
-        font-size: var(--font-medium);
+        font-size: var(--font-large);
         font-weight: var(--weight-semi-bold);
-        letter-spacing: 2px;
     }
 }
 
 @media (min-width:1024px) {
-    .banner__bg .banner__bg__img {
-        /* height: 43vh;  */
-    }
+    
     .banner__title p {
         font-size: var(--font-large);
         font-weight: var(--weight-semi-bold);

@@ -17,10 +17,16 @@ h3 {
     text-transform: capitalize;
 }
 
+h4 {
+    font-size: var(--font-small);
+    font-weight: var(--weight-xtra-bold);
+    text-transform: capitalize;
+}
+
 .author {
         color: var(--color-gray);
         text-transform: uppercase;
-        font-size: var(--font-nano);
+        font-size: var(--font-micro);
         font-weight: var(--weight-bold);
     }
 
@@ -28,7 +34,7 @@ h3 {
 Media Queries
 ====================================*/
 
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
     h1 {
         font-size: var(--font-x-large);
         letter-spacing: .1rem;
@@ -67,7 +73,7 @@ Media Queries
     h1 {
         font-size: var(--font-xx-large);
     }
-}
+} */
 
 @media (min-width: 1440px) {
     h1 {
