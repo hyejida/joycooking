@@ -55,7 +55,8 @@
 }
 
 #featured-recipes button {
-    margin: 4rem auto 0 auto;
+    margin: 6rem auto 0 auto;
+    padding: .8em 2em;
     display: block;
 }
 

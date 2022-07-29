@@ -53,6 +53,11 @@ h3 {
         font-weight: var(--weight-xtra-bold);
         text-transform: capitalize;
     }
+
+    #blog h3 {
+        font-size: var(--font-x-small);
+        font-weight: var(--weight-xtra-bold);
+    }
 }
 
 @media (min-width: 1440px) {
