@@ -66,7 +66,7 @@
 
 .recipe-for-today__box:hover {
     transform: scale(1.05);
-}
+} 
 
 .recipe-for-today__info .fa-clock {
     padding-right: .4rem;
@@ -182,8 +182,21 @@ Media Queries
 }
 
 @media (min-width:1440px) {
+
     .recipe-for-today__box {
         display: grid;
-        grid-template-columns: 400px 1fr;
+        grid-template-columns: 30rem 1fr;
+    }
+
+    .recipe-for-today__info {
+        padding: 4rem 5rem;
+    }
+
+    .recipe-for-today__info .fa-clock {
+        font-size: var(--font-regular);
+    }
+
+    .recipe__tag {
+        padding:  0;
     }
 }

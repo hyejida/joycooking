@@ -75,7 +75,7 @@ button {
     button {
         /* display: block; */
         padding: .5rem 2rem;
-}
+    }
 }
 
 @media (min-width:1048px){

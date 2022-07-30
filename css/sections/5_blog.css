@@ -76,5 +76,18 @@ Media Queries
     }
 }
 
+@media (min-width: 1440px) {
+    .blog__container {
+        grid-template-rows: repeat(2, 28rem);
+    }
 
+    .blog__item__info {
+        padding: 7rem 5.5rem;
+    }
+
+    #blog p {
+        font-size: var(--font-small);
+        line-height: 1.4rem;
+    }
+}
 

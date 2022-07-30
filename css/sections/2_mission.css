@@ -57,8 +57,16 @@ Media Queries
 }
 
 @media (min-width: 1440px) {
-    .mission__box .mission__intro {
-    line-height: 1.7rem;
-    font-weight: var(--weight-regular);
-}
+
+
+  .mission__box{
+    margin-top: -1rem;
+    padding: 5.1rem 1.5rem;  
+  }
+
+  .mission__box .mission__intro {
+    padding: 0 13rem;
+    line-height: 1.3rem;
+    font-weight: var(--weight-semi-bold);
+  }
 }

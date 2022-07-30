@@ -104,26 +104,31 @@ Media Queries
     }
 
     h2 {
-        font-size: var(--font-section-title);
+        font-size: var(--font-large);
+        font-weight: var(--weight-xtra-bold);
         margin-bottom: 35px;
     }
 
     h3 {
-        font-size: var(--font-medium);
+        font-size: var(--font-large);
         font-weight: var(--weight-xtra-bold);
     }
 
     h4 {
         font-size: var(--font-regular);
         font-weight: var(--weight-xtra-bold);
-        padding: .7em 0 1.1em 0;
+        padding: .7em 0 .6rem 0;
         text-transform: capitalize;
+    }
+
+    #blog h2 {
+        font-size: var(--font-large);
     }
 
     .author {
         color: var(--color-gray);
         text-transform: uppercase;
-        font-size: var(--font-micro);
-        font-weight: var(--weight-bold);
+        font-size: var(--font-x-small);
+        font-weight: var(--weight-xtra-bold);
     }
 }

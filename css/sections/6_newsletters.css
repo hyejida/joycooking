@@ -85,3 +85,9 @@ Media Queries
         font-size: var(--font-x-small);
     }
 }
+
+@media (min-width:1440px) {
+    #newsletters {
+        margin-top: -4rem;
+    }
+}
