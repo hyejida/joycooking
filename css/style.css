@@ -84,3 +84,11 @@ button {
         /* transition: transform .8s; */
     }
 }
+
+
+/*Tag Background Colours */
+
+.bg-yellow {background-color: var(--color-light-yellow);}
+.bg-l-gr {background-color: var(--color-light-green);}
+.bg-l-orange {background-color: var(--color-light-orange);}
+

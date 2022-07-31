@@ -58,6 +58,13 @@
 
 
 
+.navbar__list__item a:hover {
+	color: var(--color-dark-green);
+	text-transform: uppercase;
+}
+
+
+
 @media (min-width:768px) {
 
 	#header {
