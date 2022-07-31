@@ -24,14 +24,17 @@
 	display: none;
 }
 
+.navbar__left {
+	flex-basis: 40%;
+}
+
 .navbar__right {
 	display: none;
 	position: absolute;
 	right: 0;
-	width: 100%;
 	height: 100vh;
 	background: var(--color-primary);
-	flex-basis: 10%;
+	flex-basis: 60%;
 	z-index: 100;
 }
 
@@ -81,10 +84,13 @@
 		height: 100%;
 		/* justify-content: j; */
 	}
+	
 
 	.navbar__right {
 		height: 10.3rem;
-		width: 100%;
+		flex-basis: 60%;
+		/* width: 100%; */
+		justify-content: end;
 		display: unset;
 		background-color: transparent;
 		position: absolute;
@@ -100,8 +106,6 @@
 		height: 100%;
 		flex-direction: row;
 		align-items: center;	
-		width: 100%;
-		justify-content: end;
 	}
 
 	.navbar__left .navbar__logo {
@@ -147,31 +151,30 @@
 	.header {
 		width: 100%;
 		align-items: center;
-		display: inline-block;
-		justify-content: space-between;
-		/* background-color: var(--color-primary); */
 		background-color: transparent;
+		/* justify-content: space-around; */
+		/* background-color: var(--color-primary); */
 	}
 
-	.navbar__left {
-		width: 40%;
-	}
-
+	
 	.logo_side_wordmark {
 		display: unset;
 		width: 14rem;
 	}
 
+	.navbar__left {
+		flex-basis: 30%;
+	}
+
 
 	.navbar__right {
-		width: 50%;
-		text-align: right;
+		flex-basis: 70%;
+		padding-right: 3rem;
 	}
 
 	.navbar__list .navbar__list__item {
 		font-size: var(--font-medium);
 		font-weight: var(--weight-bold);
-		width: 25%;
 		transition: 0.5s;
 	}
 
@@ -181,15 +184,17 @@
 		font-weight: var(--weight-semi-bold);
 		display: block;
 		padding: 0 40px; */
+		
 	}
 	
-	.navbar__list__item:hover {
+	.navbar__list .navbar__list__item:hover {
 		/* flex-grow: 1.5; */
-		width: 35%;
+		width: 45%;
 	}
 	
-	.navbar__list__item a:hover {
+	.navbar__list .navbar__list__item a:hover {
 		color: var(--color-dark-green);
+		width: 100%;
 	}
 	
 }
