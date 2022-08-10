@@ -28,6 +28,7 @@ body {
     overflow-x: hidden;
     color: var(--color-black);
     background-color: var(--color-white);
+    width: 100vw;
 }
 
 li {
