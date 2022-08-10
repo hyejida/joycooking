@@ -86,7 +86,7 @@ Media Queries
     .recipe-for-today__box {
         width: 100%;
         display: grid;
-        grid-template-columns: 20rem 1fr;
+        grid-template-columns: 19rem 1fr;
         margin-top: 2.5rem;
         height: 20rem;
     }
